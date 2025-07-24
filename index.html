@@ -4,24 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>  -->
+     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class=" w-[1440px] m-auto flex place-content-between">
+    <!--  class="w-[1440px]  m-auto flex justify-between" -->
+    <nav class="w-full max-w-[1140px] mx-auto flex justify-between px-4 sm:px-8 items-center">
         <div>
-            <img src="assets/logo.png" alt="">
+            <img class="" src="assets/logo.png" alt="">
         </div>
         <div>
-            <ul class="flex">
-                <li class="mr-12 text-black font-bold text-base"><a  href="">Home</a></li>
-                <li class="mr-12 text-[#8987A1]"><a href="">About us</a></li>
-                <li class="mr-12 text-[#8987A1]"><a href="">Shop</a></li>
-                <li class="mr-12 text-[#8987A1]"><a href="">cart ($56)</a></li>
+            <ul class="flex gap-12">
+                <li class="hidden sm:flex  text-black font-bold text-base"><a  href="">Home</a></li>
+                <li class="hidden sm:flex text-[#8987A1]"><a href="">About us</a></li>
+                <li class="hidden sm:flex text-[#8987A1]"><a href="">Shop</a></li>
+                <li class=" text-black"><a href="">cart ($56)</a></li>
             </ul>
         </div>
-
     </nav>
+    <main>
+        <section>
+            <div class="flex flex-col-reverse md:flex-row justify-center md:justify-end container-section">
+                <div class="container">
+                    <h2 class="noto-serif font-bold text-[65px]"><span class="">ALWAYS</span> <span class="text-[#E95A08]">FRESH</span> <br> <span class="text-[#E95A08]">FLOWERS</span></h2>
+                    <p class="inter text-[22px]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+                </div>
+                <div class="hero-img me-auto">
+                    <img src="assets/hero-flower.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
+
+
+
+
+
