@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*  shared styles */
 
 .noto-serif {
   font-family: "Noto Serif", serif;
@@ -12,13 +13,15 @@
 }
 
 
-.inter{
+.font-inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 }
 
+
+/* header related styles */
 
 .container-section{
     /* background-color: aqua; */
@@ -38,8 +41,12 @@
    
 }
 
+/* our plants related styles */
 
-
+.section-plant{
+    width: 1140px;
+    margin: 120px auto;
+}
 
 
 
