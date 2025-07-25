@@ -55,6 +55,21 @@ nav li a{
     
 }
 
+/* flower related styles */
+.container-fresh{
+    width: 1140px;
+    display: flex;
+    margin: 111px auto;
+    background-color: #FFFFFF;
+}
+.fresh h2{
+    font-size: 65px;
+}
+.fresh-description{
+    font-size: 22px;
+    /* width: 570px; */
+}
+
 @media screen and (max-width: 393px) {
    nav{
     flex-direction: row;
@@ -71,6 +86,17 @@ nav li a{
     font-size: 14px;
     color: #252432;
     
+    /* flower  */
+    .fresh{
+    font-size: 24px;
+  }
+   .container-fresh{
+    width: 393px;
+   }
+    .fresh h2{
+   flex-direction: column;
+     }
+
 }
 
 
