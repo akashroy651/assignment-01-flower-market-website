@@ -37,7 +37,7 @@
 .hero-img{
     margin-top: 106px;
     width: 570px;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
    
 }
 
@@ -47,7 +47,44 @@
     width: 1140px;
     margin: 120px auto;
 }
+.responsive-text{
+    text-align: center;
+}
+.responsive-text h2{
+    font-size: 50px;
+    margin-top: 2px;
+}
+.responsive-text p{
+    font-size: 22px;
+}
+.container-plant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 
+
+@media screen and (max-width: 393px) {
+    .section-plant h2{
+        
+        font-size: ;
+  }
+    .container-plant{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .responsive-text{
+           width: 393px;
+    }
+      .responsive-text h2 {
+      font-size: 24px;
+    }
+      .responsive-text p {
+      font-size: 22px;
+         width: 393px;
+      
+   
+    }
+}
 
 
 
