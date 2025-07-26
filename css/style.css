@@ -36,7 +36,6 @@
 
 /* header related styles */
 nav{
-    background-color: aquamarine;
   width: 1140px; 
   display: flex;
   justify-content: space-between;
@@ -55,21 +54,6 @@ nav li a{
     
 }
 
-/* flower related styles */
-.container-fresh{
-    width: 1140px;
-    display: flex;
-    margin: 111px auto;
-    background-color: #FFFFFF;
-}
-.fresh h2{
-    font-size: 65px;
-}
-.fresh-description{
-    font-size: 22px;
-    /* width: 570px; */
-}
-
 /* flower plants related styles */
 
 .trusted{
@@ -79,15 +63,7 @@ nav li a{
 }
 
 /* discount related styles */
-.discount{
-    background-image: url('../assets/deal-bloom.png');
-    border-radius: 14px;
-    
-}
-.discount h3{
-    left: 0px;
-    top: 50px;
-}
+
 
 
 @media screen and (max-width: 393px) {
@@ -107,16 +83,6 @@ nav li a{
     color: #252432;
   }
 
-    /* flower  */
-    .fresh{
-    font-size: 24px;
-  }
-   .container-fresh{
-    width: 393px;
-   }
-    .fresh h2{
-   flex-direction: column;
-     }
      /* flower plants  */
      .trusted{
         display: none;
