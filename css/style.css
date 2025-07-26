@@ -70,12 +70,23 @@ nav li a{
     /* width: 570px; */
 }
 
-
+/* flower plants related styles */
 
 .trusted{
     width: 286px;
     margin-top: -132px;
     margin-left: -293px;
+}
+
+/* discount related styles */
+.discount{
+    background-image: url('../assets/deal-bloom.png');
+    border-radius: 14px;
+    
+}
+.discount h3{
+    left: 0px;
+    top: 50px;
 }
 
 
@@ -106,6 +117,7 @@ nav li a{
     .fresh h2{
    flex-direction: column;
      }
+     /* flower plants  */
      .trusted{
         display: none;
      }
