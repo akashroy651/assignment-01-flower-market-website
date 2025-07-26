@@ -70,6 +70,15 @@ nav li a{
     /* width: 570px; */
 }
 
+
+
+.trusted{
+    width: 286px;
+    margin-top: -132px;
+    margin-left: -293px;
+}
+
+
 @media screen and (max-width: 393px) {
    nav{
     flex-direction: row;
@@ -85,7 +94,8 @@ nav li a{
     .cart-icon {
     font-size: 14px;
     color: #252432;
-    
+  }
+
     /* flower  */
     .fresh{
     font-size: 24px;
@@ -96,11 +106,11 @@ nav li a{
     .fresh h2{
    flex-direction: column;
      }
+     .trusted{
+        display: none;
+     }
 
 }
-
-
-
 
 
 
